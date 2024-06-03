@@ -18,6 +18,8 @@ Und - nicht zu vernachlässigen - es gibt [sehr gute Anleitungen](https://datase
 
 [Webseite datasette.io](https://datasette.io/)
 
+Wer's auch benutzt: Bellingcat, hier zu sehen: https://www.bellingcat.com/news/rest-of-world/2022/04/01/food-delivery-leak-unmasks-russian-security-agents/
+
 ### Was ist ein Terminal/die Kommandozeile?
 
 Die Eingabeaufforderung, dieses schwarze Fenster mit heller Schrift...  
