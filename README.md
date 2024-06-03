@@ -55,6 +55,16 @@ datasette data.db --create
 
 pipx install sqlite-utils
 
+https://datasette.io/plugins/datasette-explain
+
+
+## Daten importieren
+
+Eine Datenbank besteht azs 
+
+Wir haben da was vorbereitet...
+
+Daten zu Abgeordneten des Bundestags.
 
 Datenbank erstellen: https://datasette.io/tutorials/clean-data
 
@@ -67,7 +77,5 @@ sqlite-utils insert mdbs.db mdb \
   diese_csv.csv --csv -d
 ```
 
-
-
-https://datasette.io/plugins/datasette-explain
+## Plugins installieren und verwenden
 
