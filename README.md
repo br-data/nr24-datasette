@@ -99,6 +99,11 @@ run: datasette mdbs.db
 
 ## Plugins installieren und verwenden
 
+
+- Karte
+- Plots/Charts
+
+
 ## Abfragen
 
 
@@ -113,4 +118,6 @@ Interessante Abfrage als View abspeichern
 
 
 ## Metadata.json/Metadata.yaml: Einstellungen
+
+
 

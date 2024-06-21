@@ -1,0 +1,60 @@
+{
+  
+    "title": "JusProg",
+     "description": "In dieser Datenbank befinden sich die Alterszuordnungen der JusProg-Software von 6,4 Millionen de-Domains.",
+     "databases": {
+         "jusprog_datasette": {
+             "tables": {
+                 "api_responses": {
+                     "description_html": "Die Ergebnisse der JusProg-API für jede Domain. Verteilungen der einzelnen Spalten und Details auch unter <a href='https://interaktiv.brdata-dev.de/jusprog-analyse/inspect-age-check-data.html'>mehr</a> ",
+                      "columns": {
+                        "url": "Geprüfte Domain",
+                        "age": "Mindestalter für die URL, die JusProg-API zurückgibt (von JusProg)",
+                        "scope_url": "Scope der URL, die getestet wird (von JusProg)",
+                        "show": " (von JusProg)",
+                        "urlcheck": "nur 19 mal Wert 1 (0%), sonst 0,   (von JusProg)",
+                        "otf": "immer Wert 0. Steht vermutlich für on the fly, ein Verfahren, das laut Vodafone nicht eingesetzt wird  (von JusProg)",
+                        "cou": "immer Wert 'all'  (von JusProg)",
+                        "overrule": "wenn `overrule == 0`, dann sind das immer die Altersangaben `99` und `127` - also immer blocken, egal welche Altersangabe? (von JusProg)",
+                        "cache": "4% = 1, sonst 0; Bedeutung unklar, hohe Überschneidung mit type = sp, aber nicht identisch (von JusProg)",
+                        "list": "Ziemlich gleichverteilt (ca 20%) auf 'all jusprog-web1' bis 'all jusprog-web5' (von JusProg)",
+                        "country": "hat immer den Wert 'all' (von JusProg)",
+                        "age_issuer": "hat immer den Wert 'JusProg e.V.' (von JusProg)",
+                        "type": "96% ist 'sh', 4% 'sp' -> Bedeutung unklar (von JusProg)",
+                        "age_xml_default": "leer - möglicherweise Grund, warum Fundorado.de erreichbar ist (von JusProg)",
+                        "age_de_xml_default": "leer - möglicherweise Grund, warum Fundorado.de erreichbar ist (von JusProg)",
+                        "timestamp": "Wann wir Domain geprüft haben",
+                        "hierarchy": "Wir haben z.T. die Domains zweimal geprüft. hierarchy == 1 (Katha), hierarchy == 2 (Julia)"
+                         
+                     }
+                 },
+                 "airtable_wide": {
+                     "description_html": "Knapp 700 Domains haben Kategorien bottom-up zugewiesen bekommen (von Katha). Gibt es mehrere Kategorien pro Domain stehen sie nebeneinander in der Zelle."},
+                 "airtable_long": {
+                     "description_html": "Knapp 700 Domains haben Kategorien bottom-up zugewiesen bekommen (von Katha). Gibt es mehrere Kategorien pro Domain stehen sie untereinander: Pro Domain gibt es dann mehrere Zeilen.",
+                 },
+                 "age_changes": {
+                     "description_html": "Domains, bei denen wir eine Änderung der Alterseinstufung festellen konnten."
+                 },
+                  "google_test": {
+                     "description_html": "Test von Google-Ergebnissen bestimmter Suchanfragen. "
+                 }
+             },
+             "queries": {
+                "blocked_domains": {
+                  
+                    "sql": "select * from api_responses where age >= 18;"
+                }
+            }
+         }
+     },
+ 
+     "plugins": {
+         "datasette-render-html": {
+             "columns": ["url", "domain", "url_clean"]
+         },
+         "datasette-render-timestamps": {
+             "format": "%Y-%m-%d-%H:%M:%S"
+         }
+     }
+ }
