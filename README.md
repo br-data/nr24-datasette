@@ -1,5 +1,11 @@
 # nr24-datasette
 
+## todo
+
+- in rel_mdb_ausschuesse, col funktion: - zu echtem NA
+
+- adresses: NA als echte leere Felder, nicht NA-String
+
 ## Intro
 
 ### Was ist eine Datenbank?
@@ -62,7 +68,7 @@ https://datasette.io/plugins/datasette-explain
 
 ## Daten importieren
 
-Eine Datenbank besteht azs 
+Eine Datenbank besteht aus  
 
 Wir haben da was vorbereitet...
 
@@ -79,5 +85,32 @@ sqlite-utils insert mdbs.db mdb \
   diese_csv.csv --csv -d
 ```
 
+
+sqlite-utils insert mdbs.db rel_mdb_ausschuesse data/rel_mdbs_ausschuesse.csv --csv --detect-types --pk=mdb_id  
+
+sqlite-utils insert mdbs.db ausschuesse data/ausschuesse.csv --csv --detect-types --pk=ausschuss_id 
+
+sqlite-utils insert mdbs.db adresses data/mdb_addresses.csv --csv --detect-types   
+
+Ansehen:  sqlite-utils schema mdbs.db
+
+
+run: datasette mdbs.db
+
 ## Plugins installieren und verwenden
+
+## Abfragen
+
+
+```sql
+select * from mdbs 
+inner join rel_mdb_ausschuesse on mdbs.mdb_id=rel_mdb_ausschuesse.mdb_id
+inner join ausschuesse on rel_mdb_ausschuesse.ausschuss_id=ausschuesse.ausschuss_id
+```
+
+Interessante Abfrage als View abspeichern
+- SQL query irgendwie in metadata.json reinpacken
+
+
+## Metadata.json/Metadata.yaml: Einstellungen
 
