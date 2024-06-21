@@ -1,11 +1,5 @@
 # nr24-datasette
 
-## todo
-
-- in rel_mdb_ausschuesse, col funktion: - zu echtem NA
-
-- adresses: NA als echte leere Felder, nicht NA-String
-
 ## Intro
 
 ### Was ist eine Datenbank?
@@ -119,5 +113,5 @@ Interessante Abfrage als View abspeichern
 
 ## Metadata.json/Metadata.yaml: Einstellungen
 
-
+- 
 

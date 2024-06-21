@@ -1,68 +1,68 @@
 mdbID,street,postalcode,city
-2314,NA,NA,NA
-2315,NA,NA,NA
-2316,NA,NA,NA
-2317,NA,NA,NA
+2314,,,
+2315,,,
+2316,,,
+2317,,,
 2318,Westliche Karl-Friedrich-Str. 28,75172,Pforzheim
 2319,Im Kreuzkampe 1,30655,Hannover
-2019,NA,NA,NA
-2320,NA,NA,NA
+2019,,,
+2320,,,
 2321,Rathausgasse 5,94481,Grafenau
-2322,NA,NA,NA
+2322,,,
 1769,Langenhof 2,26160,Bad Zwischenahn
 1769,Unterm Berg 20,26123,Oldenburg
 2020,Osianderstraße 2,73230,Kirchheim/Teck
 2021,Hattersheimer Straße 46,65719,Hofheim am Taunus
-2022,NA,NA,NA
+2022,,,
 1771,Gartenstr. 27,24103,Kiel
 2323,Fritz-Erler-Str. 2,50374,Erftstadt
 2323,Hochstr. 34,53879,Euskirchen
 1383,Helene-Lange-Straße 1,20144,Hamburg
 2324,Strelitzer Str. 37,17235,Neustrelitz
 2324,Domstraße 4,18273,Güstrow
-1642,NA,NA,NA
+1642,,,
 2325,Braunschweiger Straße 71,12055,Berlin
-1773,NA,NA,NA
+1773,,,
 1653,Ziegetsdorfer Straße 109,93051,Regensburg
-2326,NA,NA,NA
-2327,NA,NA,NA
+2326,,,
+2327,,,
 2328,Rochlitzer Str. 73,09648,Mittweida
 2023,Luitpoldstraße 53,96052,Bamberg
 2023,Paradeplatz 19,91301,Forchheim
 1774,Schillerplatz 10,73033,Göppingen
 1229,Obere Marktstraße 1,97688,Bad Kissingen
 2329,Marienstraße 3,83607,Holzkirchen
-1775,NA,NA,NA
-1776,NA,NA,NA
-2330,NA,NA,NA
-2331,NA,NA,NA
+1775,,,
+1776,,,
+2330,,,
+2331,,,
 2288,Niederste Straße 15,57439,Attendorn
 2288,Breitenfeld 1B,58507,Lüdenscheid
-1385,NA,NA,NA
-2599,NA,NA,NA
-1297,NA,NA,NA
-973,NA,NA,NA
-2593,NA,NA,NA
+1385,,,
+2599,,,
+1297,,,
+973,,,
+2593,,,
 1607,Krummacherstraße 33,47051,Duisburg
 2025,Neustadt 455,84028,Landshut
-2332,NA,NA,NA
-2026,NA,NA,NA
+2332,,,
+2026,,,
 2029,Dresdener Str. 10,10999,Berlin
 2029,Schreinerstr. 6,10247,Berlin
 2335,Burchardstraße 19,20095,Hamburg
-2333,NA,NA,NA
-2334,NA,NA,NA
+2333,,,
+2334,,,
 2030,Bawinkeler Str. 3,49838,Langen
 2030,Osnabrücker Str. 38,49170,Hagen
-2441,NA,NA,NA
-2336,NA,NA,NA
+2441,,,
+2336,,,
 2337,Paulinenstraße 39,32756,Detmold
 2337,Mittelstraße 3,32657,Lemgo
-2338,NA,NA,NA
-2032,NA,NA,NA
+2338,,,
+2032,,,
 2033,Hamburger Straße 29,23795,Bad Segeberg
 1558,Friedrichstraße 140a,42551,Velbert
-2036,NA,NA,NA
+2036,,,
 1566,Uhlandstraße 21,71638,Ludwigsburg
 1656,Severinswall 37,50678,Köln
 1656,Im Spürkergarten 38,50374,Erftstadt-Liblar
@@ -70,19 +70,19 @@ mdbID,street,postalcode,city
 2339,Bergstraße 33,29439,Lüchow (Wendland)
 2037,Feldkircher Straße 40a,56567,Neuwied
 2037,Wilhelmstr. 53,57610,Altenkirchen
-2340,NA,NA,NA
-2341,NA,NA,NA
-2038,NA,NA,NA
-2342,NA,NA,NA
-2313,NA,NA,NA
+2340,,,
+2341,,,
+2038,,,
+2342,,,
+2313,,,
 2343,August-Bebel-Straße 40,23936,Grevesmühlen
 1394,Michael-Henkel-Straße 4-6,36043,Fulda
 1394,Vogelsbergstraße 40,36341,Lauterbach
 2039,Pfarrstr. 2,69168,Wiesloch
 2040,Gymnasiumstraße 9,76829,Landau in der Pfalz
-2344,NA,NA,NA
-1648,NA,NA,NA
-2041,NA,NA,NA
+2344,,,
+1648,,,
+2041,,,
 1785,Bergheimer Str. 147,69115,Heidelberg
 1175,Spenerweg 8,35394,Gießen
 1175,Altenburger Straße 16a,36304,Alsfeld
@@ -92,44 +92,44 @@ mdbID,street,postalcode,city
 2045,Jakobstraße 46,90402,Nürnberg
 1619,Fischmarkt 12b,38820,Halberstadt
 1619,Vorderbreite 19,06449,Aschersleben
-2345,NA,NA,NA
+2345,,,
 2046,Silcherstraße 20,73430,Aalen
-1659,NA,NA,NA
+1659,,,
 2047,Fröbelstraße 5,51643,Gummersbach
-2346,NA,NA,NA
+2346,,,
 1701,Rosenstraße 39,88212,Ravensburg
-2347,NA,NA,NA
+2347,,,
 2299,Stadtplatz 55,84453,Mühldorf am Inn
-2048,NA,NA,NA
+2048,,,
 2049,Siebleber Straße 2,99867,Gotha
 2589,Kirchstraße 5,08280,Aue
-2348,NA,NA,NA
-1661,NA,NA,NA
-2051,NA,NA,NA
-2053,NA,NA,NA
-2349,NA,NA,NA
-1787,NA,NA,NA
-2054,NA,NA,NA
+2348,,,
+1661,,,
+2051,,,
+2053,,,
+2349,,,
+1787,,,
+2054,,,
 2055,Gablenberger Hauptstrasse 33,70186,Stuttgart
 2056,Muskauer Straße 73,02943,Weisswasser
 1264,Hauptkanal links 42,26871,Papenburg
 1264,Ledastraße 11,26789,Leer
-2008,NA,NA,NA
-2057,NA,NA,NA
-2058,NA,NA,NA
+2008,,,
+2057,,,
+2058,,,
 2059,Großbeerenstraße 46,12107,Berlin
-2350,NA,NA,NA
-2305,NA,NA,NA
+2350,,,
+2305,,,
 1788,Roonstraße 1,59229,Ahlen
 2060,Hinrich-Fehrs-Str. 2,25813,Husum
 2060,Neue Anlage 17,25746,Heide
-1398,NA,NA,NA
-1917,NA,NA,NA
-993,NA,NA,NA
+1398,,,
+1917,,,
+993,,,
 2351,Lipschitzallee 70,12353,Berlin
-2352,NA,NA,NA
+2352,,,
 1789,Große Märkerstr. 6,06108,Halle (Saale)
-2353,NA,NA,NA
+2353,,,
 2354,Südwall 38,47798,Krefeld
 2354,Ostring 3,47441,Moers
 2355,Altmarkt 7,08280,Aue
@@ -137,27 +137,27 @@ mdbID,street,postalcode,city
 2063,Briloner Landstraße 27,34497,Korbach
 1791,Spargasse 10,97688,Bad Kissingen
 1791,Marktplatz 6,97437,Haßfurt
-1646,NA,NA,NA
-1288,NA,NA,NA
+1646,,,
+1288,,,
 2356,Kirchenplatz 2,35390,Gießen
 2356,Alsfelder Str. 6,35305,Grünberg
 2064,Bernauer Str. 71,16515,Oranienburg
-1792,NA,NA,NA
+1792,,,
 1793,Ebertplatz 23,50668,Köln
-2357,NA,NA,NA
-2358,NA,NA,NA
+2357,,,
+2358,,,
 2066,Brookdamm 40,27777,Ganderkesee
 1794,Heilig-Kreuz-Straße 24,86152,Augsburg
 1750,Blendstatt 3,74523,Schwäbisch Hall
-2359,NA,NA,NA
+2359,,,
 2360,Lenbachplatz 16,86529,Schrobenhausen
 2361,Kugelbühlstraße 9,91154,Roth
-2068,NA,NA,NA
-2362,NA,NA,NA
+2068,,,
+2362,,,
 2309,Heimstraße 7,89073,Ulm
 2363,Stadtberg 26,89312,Günzburg
-2364,NA,NA,NA
-2365,NA,NA,NA
+2364,,,
+2365,,,
 2070,Güterstraße 2,94469,Deggendorf
 2070,Krankenhausstraße 3,94078,Freyung
 1406,Hadergasse 11,97421,Schweinfurt
@@ -165,7 +165,7 @@ mdbID,street,postalcode,city
 1406,Ostuzzistraße 1,94032,Passau
 2071,Arndtstraße 6-8,33602,Bielefeld
 1797,Altburger Straße 13,75365,Calw
-2072,NA,NA,NA
+2072,,,
 2073,Hohe Bude 15,39576,Stendal
 1799,Heidenheimer Straße 68,73079,Süßen
 2366,Hauptstraße 36,16547,Birkenwerder
@@ -173,68 +173,68 @@ mdbID,street,postalcode,city
 2367,Friedrich-Schmidt-Straße 2,06526,Sangerhausen
 1800,Landvogtei 5,79312,Emmendingen
 1801,Berliner Straße 119,16515,Oranienburg
-2075,NA,NA,NA
-1335,NA,NA,NA
-2076,NA,NA,NA
-2368,NA,NA,NA
-2369,NA,NA,NA
+2075,,,
+1335,,,
+2076,,,
+2368,,,
+2369,,,
 2596,Gewerbestraße 2-4,69221,Dossenheim
 2077,Baaderstraße 59,80469,München
 1583,Bahnhofstraße 36c,34582,Borken
 1583,Obermarkt 5,35066,Frankenberg/ Eder
 1806,Justinus-Kerner-Str. 5,78048,Villingen-Schwenningen
-1195,NA,NA,NA
-2079,NA,NA,NA
+1195,,,
+2079,,,
 1011,Schützenstraße 1,95028,Hof
 1665,Jakobstraße 46,90402,Nürnberg
-2082,NA,NA,NA
-2081,NA,NA,NA
-2371,NA,NA,NA
+2082,,,
+2081,,,
+2371,,,
 2370,Am Eser 2,86150,Augsburg
 2370,Baldinger Str. 17,86720,Nördlingen
 1649,Königstraße 2,23701,Eutin
-2372,NA,NA,NA
-2373,NA,NA,NA
-2375,NA,NA,NA
-1808,NA,NA,NA
-2084,NA,NA,NA
-2374,NA,NA,NA
+2372,,,
+2373,,,
+2375,,,
+1808,,,
+2084,,,
+2374,,,
 1630,Max-Planck-Straße 6,76829,Landau
-1408,NA,NA,NA
+1408,,,
 2376,Löwenstraße 11,96450,Coburg
 2086,Prenzlauer Allee 22,10405,Berlin
-1647,NA,NA,NA
-2377,NA,NA,NA
-1410,NA,NA,NA
+1647,,,
+2377,,,
+1410,,,
 2378,Bahnhofstr. 9,48282,Emsdetten
-2087,NA,NA,NA
+2087,,,
 1994,Alleestr. 60,66953,Pirmasens
-2467,NA,NA,NA
-2379,NA,NA,NA
+2467,,,
+2379,,,
 1020,Schillergässchen 5,07745,Jena
-2380,NA,NA,NA
+2380,,,
 1616,Schwanthaler Straße 139,80339,München
 2091,Sankt-Anton-Straße 52,47798,Krefeld
-2381,NA,NA,NA
-2382,NA,NA,NA
-2383,NA,NA,NA
+2381,,,
+2382,,,
+2383,,,
 1155,Schlossstr. 2,42551,Velbert
-763,NA,NA,NA
+763,,,
 1208,Bahnhofstraße 21,21423,Winsen/ Luhe
 1269,Bahnhofstraße 27,73728,Esslingen
-2591,NA,NA,NA
+2591,,,
 1412,Oraniendamm 6-10,13469,Berlin
-2384,NA,NA,NA
+2384,,,
 764,Wilhelmstraße 20,37308,Heilbad Heiligenstadt
 764,Bahnhofstraße 15/16,99734,Nordhausen
 764,Hospitalstraße 88,99706,Sondershausen
-2093,NA,NA,NA
+2093,,,
 1813,Poststr. 34,21682,Stade
 2385,Hauptstraße 390,51143,Köln
 1815,Reinhäuser Landstraße 5,37083,Göttingen
-2386,NA,NA,NA
+2386,,,
 1176,Händelweg 1,68794,Oberhausen-Rheinhausen
-167,NA,NA,NA
+167,,,
 1816,Corbiestraße 22,37671,Höxter
 1816,Emilienstraße 12,32756,Detmold
 2387,Kornmarkt 12,24837,Schleswig
@@ -246,40 +246,40 @@ mdbID,street,postalcode,city
 1817,Steinfelsstraße 2 a-c,94405,Landau an der Isar
 1818,Lauterbachstraße 4,01796,Pirna
 1818,Lange Straße 34,01855,Sebnitz
-1637,NA,NA,NA
+1637,,,
 1819,Veringstraße 61,21107,Hamburg
 1819,Julius-Ludowieg-Straße 9,21073,Hamburg
 1819,Vierlandenstraße 27,21029,Hamburg
-2096,NA,NA,NA
+2096,,,
 1620,Höhne 41,42109,Wuppertal
 1620,Konrad-Adenauer-Straße 7,42853,Remscheid
 1620,Elisenstraße 11,42651,Solingen
 2388,Radeberger Straße 51,01099,Dresden
 2388,Obermarkt 28,04720,Döbeln
 1821,Frankfurter Str. 47,53840,Troisdorf
-2389,NA,NA,NA
-1416,NA,NA,NA
-1822,NA,NA,NA
+2389,,,
+1416,,,
+1822,,,
 2099,Unter Käster 1-3,50667,Köln
-1824,NA,NA,NA
+1824,,,
 1825,Altenessener Straße 268,45326,Essen
 2289,In der Burg 18,61169,Friedberg
 2289,Schmidtgasse 8,63571,Gelnhausen
 1030,Goethestraße 16,31224,Peine
 1030,Steinweig 11,38518,Gifhorn
-1586,NA,NA,NA
-2390,NA,NA,NA
+1586,,,
+2390,,,
 2101,Clayallee 349,14169,Berlin
-1826,NA,NA,NA
-2391,NA,NA,NA
-2392,NA,NA,NA
+1826,,,
+2391,,,
+2392,,,
 1989,Feldschmiede 77 A,25524,Itzehoe
 1989,Neue Anlage 17,25746,Heide
-2102,NA,NA,NA
+2102,,,
 1760,Ulricherstr. 27,59494,Soest
 1760,Cappelstrasse 7,59555,Lippstadt
-2393,NA,NA,NA
-2395,NA,NA,NA
+2393,,,
+2395,,,
 2394,Pilse 29,99084,Erfurt
 2104,Zapfeweg 18,48653,Coesfeld
 2104,Johannesstraße 5,48329,Havixbeck
@@ -288,10 +288,10 @@ mdbID,street,postalcode,city
 2396,Hermannstraße 6,09111,Chemnitz
 2396,Innere Schneeberger Straße 16,08056,Zwickau
 2397,Goldstraße 5,46325,Borken
-2110,NA,NA,NA
-2111,NA,NA,NA
-2605,NA,NA,NA
-1673,NA,NA,NA
+2110,,,
+2111,,,
+2605,,,
+1673,,,
 2398,Hallertorstraße 16,92318,Neumarkt i. d. OPf.
 2398,Schlachthausstr. 6,92224,Amberg
 2112,Karl-Marx-Str. 15,02625,Bautzen
@@ -303,89 +303,89 @@ mdbID,street,postalcode,city
 2114,Verdener Straße 51,28832,Achim
 2113,Mainzer Str. 34,55743,Idar-Oberstein
 2113,Neue Straße 2,55606,Kirn
-1674,NA,NA,NA
-2399,NA,NA,NA
+1674,,,
+2399,,,
 1832,Baumhofstraße 21,97282,Marktheidenfeld
 2115,Bahnhofstr. 1,34590,Wabern
 2116,Hauptstraße 46,79639,Grenzach-Wyhlen
 1426,Franziskanerstr. 14,81669,München
 2604,Großer Plan 27,29221,Celle
 2120,Mariakronstraße 12-14,18437,Stralsund
-2121,NA,NA,NA
-1833,NA,NA,NA
+2121,,,
+1833,,,
 2400,Wandsbeker Königstraße 66,22041,Hamburg
-2401,NA,NA,NA
-2122,NA,NA,NA
+2401,,,
+2122,,,
 2123,Margarete-Reichl-Straße 6,85354,Freising
 2123,Lilienthalstraße 19a,85296,Rohrbach
 2402,Petrusstraße 1,54292,Trier
-2403,NA,NA,NA
+2403,,,
 217,Parkstraße 31,59425,Unna
-1578,NA,NA,NA
-2404,NA,NA,NA
-2125,NA,NA,NA
+1578,,,
+2404,,,
+2125,,,
 1839,Jägergasse 2,85408,Gammelsdorf
 2127,Unter Käster 1,50667,Köln
 1840,Winzererstraße 27,80797,München
-2405,NA,NA,NA
+2405,,,
 2406,Am Kirchplatz 4,26441,Jever
 1738,Wasserstraße 5,40213,Düsseldorf
 2128,Eichhofstraße 27-29,24116,Kiel
-2129,NA,NA,NA
+2129,,,
 1433,Hofhalde 12,78462,Konstanz
 1845,Großschmiedestraße 9,23966,Wismar
 1845,Dammchausssee 3,18209,Bad Doberan
 1845,Lange Straße 40,19370,Parchim
 1434,Untere Neckarstrasse 50,74072,Heilbronn
-2407,NA,NA,NA
+2407,,,
 1551,Untere Husemannstr. 38,59425,Unna
-2408,NA,NA,NA
-2132,NA,NA,NA
-2134,NA,NA,NA
+2408,,,
+2132,,,
+2134,,,
 2409,Untere Marktstraße 6,71634,Ludwigsburg
 1851,Oststr. 1,49477,Ibbenbüren
-2410,NA,NA,NA
-2411,NA,NA,NA
+2410,,,
+2411,,,
 1853,Kapellenstraße 17,76437,Rastatt
-2412,NA,NA,NA
+2412,,,
 2413,Brudergasse 6,07318,Saalfeld
 2413,Rudolf-Breitscheid-Str. 4,07768,Kahla
-1720,NA,NA,NA
+1720,,,
 2415,Brüderstraße 1,16278,Angermünde
 2415,Mühlenstr. 5d,15517,Fürstenwalde
 1996,Wichernstr. 10,89073,Ulm
-2416,NA,NA,NA
-1557,NA,NA,NA
+2416,,,
+1557,,,
 2139,Hochstr. 17,47228,Duisburg
-2417,NA,NA,NA
-1567,NA,NA,NA
-2140,NA,NA,NA
+2417,,,
+1567,,,
+2140,,,
 1709,Senior-Blumenberg-Gang 1,30159,Hannover
-1855,NA,NA,NA
-2418,NA,NA,NA
+1855,,,
+2418,,,
 2141,Erthalstraße 14,63739,Aschaffenburg
-2419,NA,NA,NA
-1640,NA,NA,NA
+2419,,,
+1640,,,
 1580,Windthorststr. 7,48143,Münster
 2142,Parkstraße 5,04895,Falkenberg/Elster
-2420,NA,NA,NA
+2420,,,
 1374,Lange Straße 27,29644,Walsrode
-2421,NA,NA,NA
+2421,,,
 2422,Turmstraße 81,10551,Berlin
-2145,NA,NA,NA
-2423,NA,NA,NA
+2145,,,
+2423,,,
 1730,Meisenweg 1,27245,Kirchdorf
 1730,Syker Straße 40,27211,Bassum
 1734,Aaraustraße 15,72762,Reutlingen
 2146,Baaderstraße 59,80469,München
-2424,NA,NA,NA
-2148,NA,NA,NA
-1441,NA,NA,NA
+2424,,,
+2148,,,
+1441,,,
 1860,Hauptstraße 28,08056,Zwickau
 1368,Kniebos 3,82378,Traunstein
 2147,Woldegker Straße 27,17033,Neubrandenburg
 2147,Lilienthal-Center Markt 7,17389,Anklam
-2149,NA,NA,NA
+2149,,,
 1859,Alte Sattelfabrik 2,61350,Bad Homburg
 1859,Kapellenstraße 4,65555,Limburg an der Lahn
 2425,Rehlingstraße 16a,79100,Freiburg
@@ -394,33 +394,33 @@ mdbID,street,postalcode,city
 2426,Wasserstraße 2,15374,Müncheberg
 2151,Mühlenstraße 44,03046,Cottbus
 2427,Lauteschlägerstraße 38,64289,Darmstadt
-2428,NA,NA,NA
+2428,,,
 2152,Stadtplatz 12B,86551,Aichach
 2152,Zum Maierhof 2,86650,Wemding
-1050,NA,NA,NA
+1050,,,
 2429,Bahnhof 1C,38300,Wolfenbüttel
 2429,Riesentrapp 14,38226,Salzgitter
-2602,NA,NA,NA
+2602,,,
 1344,Westliche Karl-Friedrich-Str. 104,75172,Pforzheim
 1174,Regentenstr. 11,41061,Mönchengladbach
 2430,Bürgelstraße 1,39104,Magdeburg
 2603,Bahnstraße 50,45468,Mülheim
-2431,NA,NA,NA
+2431,,,
 2432,Walderseestraße 21,30177,Hannover
-2154,NA,NA,NA
+2154,,,
 2433,Goebenstraße 3,10783,Berlin-Schöneberg
 1327,Kolonnenstraße 53,10829,Berlin
 2156,Postfach 20 01 16,37086,Göttingen
-1329,NA,NA,NA
-2434,NA,NA,NA
-2435,NA,NA,NA
+1329,,,
+2434,,,
+2435,,,
 1599,Deininger Straße 1,86720,Nördlingen
-2436,NA,NA,NA
-2437,NA,NA,NA
-2438,NA,NA,NA
+2436,,,
+2437,,,
+2438,,,
 1865,Eduard-Bayerlein-Str. 5,95445,Bayreuth
 1451,Mülheimer Freiheit 132,51063,Köln
-1561,NA,NA,NA
+1561,,,
 2159,Spiegelgasse 5,93047,Regensburg
 2160,Arnoldplatz 33,04319,Leipzig
 2161,Ebertplatz 23,50668,Köln
@@ -430,39 +430,39 @@ mdbID,street,postalcode,city
 1866,Rudolf-Walther-Straße 4,63584,Gründau
 2439,Keltergasse 47,74653,Künzelsau
 1867,Otto-von-Guericke-Straße 65,39104,Magdeburg
-2440,NA,NA,NA
-1569,NA,NA,NA
+2440,,,
+1569,,,
 1869,Bahnhofstr 2,85560,Ebersberg
 1869,Katharina-Fischer-Platz 2,85435,Erding
-2442,NA,NA,NA
-2443,NA,NA,NA
+2442,,,
+2443,,,
 2445,Niddastraße 108,60329,Frankfurt am Main
-2444,NA,NA,NA
-2446,NA,NA,NA
+2444,,,
+2446,,,
 2447,Wendenstraße 10,31785,Hameln
 2162,Obergrünewalder Straße 10,42103,Wuppertal
 1872,Knodestraße 3,63741,Aschaffenburg
 2163,Bensberger Str. 99,51469,Bergisch Gladbach
-1752,NA,NA,NA
+1752,,,
 2164,Heidelbergerstraße 90B,74080,Heilbronn
-1631,NA,NA,NA
-1196,NA,NA,NA
+1631,,,
+1196,,,
 1241,Zingster Straße 12,13051,Berlin
-2449,NA,NA,NA
+2449,,,
 2166,Adamstraße 2,80636,München
 2167,Alter Markt 8,53879,Euskirchen
 2450,Diekampstraße 37,44787,Bochum
 2450,Freiheitstraße 6,44866,Wattenscheid
 1605,Kolonnenstr. 4,10827,Berlin
 1243,Klepperstr. 19,83026,Rosenheim
-2451,NA,NA,NA
+2451,,,
 2452,Luitpoldstr. 6,91207,Lauf a.d. Pegnitz
 2453,Hagener Str. 81,58769,Nachrodt-Wiblingwerde
 2453,Elisabethstraße 32,58636,Iserlohn
-1621,NA,NA,NA
+1621,,,
 1703,Bahnhofstr. 9,66538,Neunkirchen/ Saar
 1703,Nauwieserstr. 9,66111,Saarbrücken
-2454,NA,NA,NA
+2454,,,
 2455,Kernerstraße 211,75323,Bad Wildbad
 2290,Leiningerstraße 12,67098,Bad Dürkheim
 2290,Maximilianstraße 31,67433,Neustadt a.d. Weinstraße
@@ -470,50 +470,50 @@ mdbID,street,postalcode,city
 1876,Altmarkt 4,08209,Auerbach
 1876,Rädelstraße 2,08523,Plauen
 2456,Tilly-Schanzen-Straße 15,17033,Neubrandenburg
-2457,NA,NA,NA
-2173,NA,NA,NA
+2457,,,
+2173,,,
 2174,Apothekergässchen 1,64646,Heppenheim
-2459,NA,NA,NA
+2459,,,
 2302,Kleekamp 2,22335,Hamburg
-2460,NA,NA,NA
-2461,NA,NA,NA
+2460,,,
+2461,,,
 1458,Jörg-Ratgeb-Straße 23,75173,Pforzheim
 1601,Schulstraße 2a,28870,Ottersberg/Posthausen
 1601,Bahnhofstraße 33a,27711,Osterholz-Scharmbeck
-1347,NA,NA,NA
-2463,NA,NA,NA
-2462,NA,NA,NA
-2464,NA,NA,NA
-2465,NA,NA,NA
+1347,,,
+2463,,,
+2462,,,
+2464,,,
+2465,,,
 779,Hauptstraße 71-73,64625,Bensheim
 779,Schönbacher Straße 5,64646,Heppenheim
 2595,Großer Plan 27,29221,Celle
 2595,Lüneburger Str. 42,29525,Uelzen
 2466,Friedensplatz 4,26122,Oldenburg
 2468,Le-Puy-Straße 17,59872,Meschede
-2469,NA,NA,NA
+2469,,,
 1882,Weckerlingplatz 1,67547,Worms
 1882,St. Georgen-Str. 50,55232,Alzey
 2178,Dorotheenstraße 56,10117,Berlin
-2470,NA,NA,NA
-2471,NA,NA,NA
+2470,,,
+2471,,,
 1652,Heger-Tor-Wall 23,49078,Osnabrück
 1463,Odeonstraße 15/16,30159,Hannover
-2472,NA,NA,NA
+2472,,,
 1883,Hagenstraße 39,45894,Gelsenkirchen
 2473,Sickingenstraße 7-9,34117,Kassel
 2473,Rabanusstr. 35,36037,Fulda
 1885,Arthur-Fitger-Straße 10,27749,Delmenhorst
-1625,NA,NA,NA
+1625,,,
 2184,St.-Annen-Str. 2,26441,Jever
 2474,Heilbronner Straße 43,70191,Stuttgart
 2181,Bahnhofsplatz 4,26122,Oldenburg
 2183,Markt 9,52249,Eschweiler
-2475,NA,NA,NA
+2475,,,
 1718,Lübecker Straße 6,19053,Schwerin
-2476,NA,NA,NA
-2477,NA,NA,NA
-2186,NA,NA,NA
+2476,,,
+2477,,,
+2186,,,
 2187,Rosenstraße 26,88212,Ravensburg
 1888,Altenhaßlauer Str. 21,63571,Gelnhausen
 1469,Gieselerwall 2,38100,Braunschweig
@@ -524,47 +524,47 @@ mdbID,street,postalcode,city
 2478,Martinstraße 49 57462 Olpe,57462,"Olpe,"
 2478,Friedrichstraße 21,58507,Lüdenscheid
 2479,Bleibtreustraße 33,10707,Berlin
-2480,NA,NA,NA
+2480,,,
 2190,Johann-Friedrich-Böttger-Str. 10,06886,Lutherstadt Wittenberg
 2190,Markt 23,06917,Jessen (Elster)
 1291,Ludwig-Erhard-Straße 9a,91052,Erlangen
-1556,NA,NA,NA
+1556,,,
 2192,Jakobikirchpl. 2,09111,Chemnitz
 1889,Bochumer Str. 26,44623,Herne
-2194,NA,NA,NA
+2194,,,
 1309,Magnusstr. 18b,50672,Köln
 2481,Mauritzstr. 4-6,48143,Münster
-2482,NA,NA,NA
-2483,NA,NA,NA
+2482,,,
+2483,,,
 2195,Burchardstr. 21,20095,Hamburg
 2484,Wallstr. 5,08606,Oelsnitz/ Vogtland
 2196,Holstenstraße 10a,25335,Elmshorn
-2486,NA,NA,NA
-2485,NA,NA,NA
+2486,,,
+2485,,,
 2198,Lollfuß 60,24837,Schleswig
 1077,Kölner Landstr. 304,52351,Düren
-2199,NA,NA,NA
-1622,NA,NA,NA
+2199,,,
+1622,,,
 1529,Oppenheimer Straße 17,60594,Frankfurt/ Main
 2487,Von der Tann Str. 1,95028,Hof
 2488,Am Freiheitsplatz 6,63450,Hanau
 1895,Schafhausener Str. 42,52525,Heinsberg
-1898,NA,NA,NA
+1898,,,
 1899,Krummacher Straße 33,47051,Duisburg
-1735,NA,NA,NA
-2489,NA,NA,NA
+1735,,,
+2489,,,
 2201,Mainzer Straße 5,66111,Saarbrücken
 1896,Freyung 618,84028,Landshut
 1896,Weinbergerstraße 2,93326,Abensberg
-2202,NA,NA,NA
+2202,,,
 1475,Südwall 26,29221,Celle
-2490,NA,NA,NA
-2203,NA,NA,NA
-2491,NA,NA,NA
+2490,,,
+2203,,,
+2491,,,
 1900,Steinweg 5,38518,Gifhorn
 1900,Freiligrathstraße 4,31224,Peine
 2492,Schloßstraße 8,38100,Braunschweig
-2493,NA,NA,NA
+2493,,,
 2494,Friedrichstraße 22a,15537,Erkner
 2494,Eisenbahnstraße 9,15517,Fürstenwalde/Spree
 2494,Saarlouiser Straße 31,15890,Eisenhüttenstadt
@@ -572,11 +572,11 @@ mdbID,street,postalcode,city
 1085,Henny-Porten-Straße 10-12,12627,Berlin
 1571,Uhlandstr. 79,10717,Berlin
 2495,In den Kolonnaden 1,61231,Bad Nauheim
-2496,NA,NA,NA
+2496,,,
 2205,Stuttgarter Allee 18,04209,Leipzig
-2206,NA,NA,NA
+2206,,,
 2207,Friedrichstraße 53,95448,Bayreuth
-1991,NA,NA,NA
+1991,,,
 2498,Karl-Liebknecht Straße 91,04275,Leipzig
 2210,Verdistraße 135,81247,München
 2499,Obere Badgasse 6,90518,Altdorf
@@ -584,73 +584,73 @@ mdbID,street,postalcode,city
 2500,Goetersstraße 54,41747,Viersen
 2213,Hesseröder Straße 11,99734,Nordhausen
 2213,Hauptstraße 41,99706,Sondershausen
-2214,NA,NA,NA
+2214,,,
 1908,Brüderweg 10-12,44135,Dortmund
-1909,NA,NA,NA
+1909,,,
 2215,Griesgasse 9,84130,Dingolfing
 1912,Mainzer Allee 17-19,65232,Taunusstein
 788,Binsfelder Straße 95,52351,Düren
 1913,Carl-Wilhelm-Straße 30-32,47798,Krefeld
 1914,Valepper Str. 28,83700,Rottach Egern
 2501,Kaiser-Joseph-Straße 216,79098,Freiburg
-1915,NA,NA,NA
-429,NA,NA,NA
-2502,NA,NA,NA
+1915,,,
+429,,,
+2502,,,
 2503,Stiftsbleiche 6,48231,Warendorf
 2216,Domherrenstr. 7,06712,Zeitz
 2216,Bülstringer Str. 1,39340,Haldensleben
-2504,NA,NA,NA
+2504,,,
 2505,Domeierstr. 6,31785,Hameln
 2505,Parkstr. 24a,49080,Osnabrück
 2505,Zum Fernsehturm 17,26605,Aurich
-2506,NA,NA,NA
-2218,NA,NA,NA
-1916,NA,NA,NA
-2220,NA,NA,NA
+2506,,,
+2218,,,
+1916,,,
+2220,,,
 2507,Heinrichsallee 52/54,52062,Aachen
 1568,Braithweg 27,88400,Biberach
 2221,Falkertstraße 58,70176,Stuttgart
 2221,Karlstraße 10,79104,Freiburg
 2221,Deutschhausgasse 7,89073,Ulm
-1918,NA,NA,NA
-2508,NA,NA,NA
+1918,,,
+2508,,,
 2592,Platz der Republik 11,41515,Grevenbroich
 1484,Kanzleistraße 1,24768,Rendsburg
-1677,NA,NA,NA
+1677,,,
 794,Mülheimer Str. 33a,53604,Bad Honnef
-2509,NA,NA,NA
+2509,,,
 1919,Huntestraße 23,26135,Oldenburg
 2510,Kesselsdorfer Straße 41,01159,Dresden
-2511,NA,NA,NA
+2511,,,
 1920,Karlstraße 3,72072,Tübingen
-2512,NA,NA,NA
-1307,NA,NA,NA
+2512,,,
+1307,,,
 1093,Bahnhofstr. 5,36251,Bad Hersfeld
 1093,Niederhoner Straße 2,37269,Eschwege
-2597,NA,NA,NA
-2222,NA,NA,NA
+2597,,,
+2222,,,
 2223,Lindenallee 49,47533,Kleve
 2513,Friedrich-Ebert-Ring 36,56068,Koblenz
 2514,Marienstraße 57,99817,Eisenach
 1713,Marktstr. 102,56564,Neuwied
 1713,Rathausstr. 35,57537,Wissen
 1921,Jüdemerstraße 16,54290,Trier
-1923,NA,NA,NA
+1923,,,
 2601,Rheinstr. 22,65185,Wiesbaden
-1314,NA,NA,NA
+1314,,,
 2000,Am Neuen Markt 14,28199,Bremen
 1924,Burggraben 46,26506,Norden
-2590,NA,NA,NA
-2516,NA,NA,NA
+2590,,,
+2516,,,
 2226,Echternstraße 97,32657,Lemgo
 1270,Alte Hattinger Str. 19,44789,Bochum
-2517,NA,NA,NA
-2518,NA,NA,NA
-2519,NA,NA,NA
+2517,,,
+2518,,,
+2519,,,
 1488,Portastraße 73,32457,Porta Westfalica
 2520,Bahnhofstraße 8,94032,Passau
 2521,Odeonstr.15/16,30159,Hannover
-2522,NA,NA,NA
+2522,,,
 1926,Karlsplatz 7,47798,Krefeld
 1927,Markt 17,21502,Geesthacht
 1927,Manhagener Allee 14,22926,Ahrensburg
@@ -659,50 +659,50 @@ mdbID,street,postalcode,city
 2523,Roßplatz 6,04509,Delitzsch
 1492,Am Kalvarienberg 6,92533,Wernberg-Köblitz
 1492,Parkstraße 33,93413,Cham
-1928,NA,NA,NA
-2227,NA,NA,NA
+1928,,,
+2227,,,
 2524,Bismarckstraße 18-20,27232,Sulingen
-1929,NA,NA,NA
+1929,,,
 2525,Elberfelder Straße 57,58095,Hagen
 2526,Hindenburgstr. 16,86609,Donauwörth
-2230,NA,NA,NA
+2230,,,
 1932,Bergstraße 60,35578,Wetzlar
-2527,NA,NA,NA
+2527,,,
 2528,Magdeburger Straße 19,39387,Oschersleben (Bode)
 2528,Kapellenstraße 38,39288,Burg
-2231,NA,NA,NA
+2231,,,
 2232,Schifferstraße 22,27568,Bremerhaven
 1097,Andreasstraße 3,99084,Erfurt
 1097,Graben 11,99423,Weimar
 2529,Mozartstraße 24a,27474,Cuxhaven
 2234,Haldenstraße 76,45881,Gelsenkirchen
-1706,NA,NA,NA
+1706,,,
 1602,Schillerstraße 6a,66606,St. Wendel
 1602,Wilhelm-Heinrich-Straße 39,66564,Ottweiler
-2530,NA,NA,NA
+2530,,,
 2531,Alleestraße 9,14469,Potsdam
-2235,NA,NA,NA
+2235,,,
 2532,Maxstr. 65,67059,Ludwigshafen
 2237,Hauptstr. 18,79761,Waldshut-Tiengen
 2238,Ilzweg 1,82140,Olching
 2533,Bahnhofstraße 10,27749,Delmenhorst
-2534,NA,NA,NA
-2535,NA,NA,NA
+2534,,,
+2535,,,
 2241,Postfach 100 123,35331,Giessen
-1936,NA,NA,NA
+1936,,,
 2536,Bahnhofstraße 9,48143,Münster
 1500,Paulusstr. 45,45657,Recklinghausen
 1704,Mindener Straße 5,32049,Herford
-1938,NA,NA,NA
-1501,NA,NA,NA
+1938,,,
+1501,,,
 2243,Bawinkeler Str. 3,49838,Langen
 2243,Osnabrücker Str. 38,49170,Hagen
-2538,NA,NA,NA
+2538,,,
 1584,Bischofstraße 21,53879,Euskirchen
 2539,Werkstr. 24,71384,Weinstadt
 2244,Kirchstraße 56,77966,Kappel-Grafenhausen
 2540,Sigismundstraße 10,78462,Konstanz
-2541,NA,NA,NA
+2541,,,
 2542,Westliche Karl-Friedrich-Str. 70,75172,Pforzheim
 2245,Bismarckstr. 150,26382,Wilhelmshaven
 1333,Luitpoldstr. 55,96052,Bamberg
@@ -711,56 +711,56 @@ mdbID,street,postalcode,city
 1502,Leitergasse 4,06108,Halle (Saale)
 1680,Weißenburgstraße 29,70180,Stuttgart
 2543,Mülheimer Straße 7a,51375,Leverkusen
-1940,NA,NA,NA
+1940,,,
 1210,Wüllener Str. 11,48683,Ahaus
-2544,NA,NA,NA
+2544,,,
 2250,Stockholmer Platz 1,70173,Stuttgart
-2545,NA,NA,NA
-2251,NA,NA,NA
+2545,,,
+2251,,,
 1943,Fleestedter Ring 3,21217,Seevetal
 2252,Münchner Straße 10,82256,Fürstenfeldbruck
-1944,NA,NA,NA
+1944,,,
 2253,Kirschgartenstraße 13a,65719,Hofheim
-2547,NA,NA,NA
+2547,,,
 1945,Schneckestraße 6,81737,München
 1946,Castellstraße 1,49808,Lingen
 1946,Kolpingstraße 5,49716,Meppen
 1946,Bahnhofstr. 21a,48529,Nordhorn
-2548,NA,NA,NA
+2548,,,
 2255,Medusastraße 16,24143,Kiel
 1949,Hohenzollernstraße 18,67433,Neustadt an der Weinstraße
-2549,NA,NA,NA
+2549,,,
 1341,Burgallee 5,74653,Künzelsau
 2550,Rosa-Luxemburg-Straße 19/21,04103,Leipzig
-1632,NA,NA,NA
-2551,NA,NA,NA
+1632,,,
+2551,,,
 2552,Johannisstraße 7,99817,Eisenach
 2552,Bastmarkt 29,99974,Mühlhausen
 2552,Steinweg 26,36433,Bad Salzungen
 2553,Luisenstraße 6,79539,Lörrach
 2256,Zionskirchstraße 3,10119,Berlin
 2257,Wallstraße 16,40213,Düsseldorf
-1597,NA,NA,NA
+1597,,,
 2259,Kirchstr. 15,88250,Weingarten
-813,NA,NA,NA
+813,,,
 1536,Domstraße 87,63067,Offenbach
 1536,Frankfurter Straße 53,63218,Dietzenbach
 2554,Moltkestraße 52,12203,Berlin
-2555,NA,NA,NA
+2555,,,
 2515,August-Bebel-Str. 33,01219,Dresden
-2262,NA,NA,NA
-1954,NA,NA,NA
+2262,,,
+1954,,,
 2263,Am Stadion 18-24,51465,Bergisch Gladbach
 2556,Kirchstraße 22/24,37235,Hessisch Lichtenau
 2556,Marktplatz 12,36199,Rotenburg
 2264,Dortustr. 11,14467,Potsdam
-2557,NA,NA,NA
-2265,NA,NA,NA
+2557,,,
+2265,,,
 1955,Stadttorstr. 5 44532 Lünen,44532,"Lünen,"
 1955,Westhofenstr. 1,59065,Hamm
-2266,NA,NA,NA
+2266,,,
 1596,Dieselstraße 1,87437,Kempten
-2267,NA,NA,NA
+2267,,,
 1271,Brühler Straße 4,99084,Erfurt
 1271,Erfurter Straße 12,99423,Weimar
 1956,Bahnstraße 31,45468,Mülheim an der Ruhr
@@ -770,85 +770,85 @@ mdbID,street,postalcode,city
 2269,Goldbergstraße 64,45894,Gelsenkirchen
 1510,Stadtgrabenstr. 5,71032,Böblingen
 1957,Hirschenstr. 24,90762,Fürth
-2559,NA,26789,Leer
-2560,NA,NA,NA
+2559,,26789,Leer
+2560,,,
 2015,Stengelstraße 5,66117,Saarbrücken
 2015,Kirchenstraße 7,66424,Homburg
 2015,De-Lenoncourt-Straße 13,66763,Dillingen
-2561,NA,NA,NA
+2561,,,
 2270,Pleicherkirchplatz 15,97070,Würzburg
-2562,NA,NA,NA
+2562,,,
 2271,Ernestinerstr. 16,98617,Meiningen
 1958,Heilig-Kreuz-Straße 24,86152,Augsburg
 1512,Mühlstr. 44,67659,Kaiserslautern
-1960,NA,NA,NA
-2272,NA,NA,NA
+1960,,,
+2272,,,
 2286,Georgstraße 28,31582,Nienburg
 2286,Obernstraße 18,31655,Stadthagen
 1964,Schwartzstraße 52,46049,Oberhausen
 1964,Bahnhofsplatz 5,46535,Dinslaken
-1725,NA,NA,NA
+1725,,,
 1570,Karlstr. 17,48282,Emsdetten
 1570,Oststr. 48,59065,Hamm
-2563,NA,NA,NA
+2563,,,
 2594,Lisdorfer Straße 9,66740,Saarlouis
 2594,Trierer Straße 21,66663,Merzig
-2273,NA,NA,NA
+2273,,,
 1723,Paradeplatz 10,24768,Rendsburg
 2564,Hanauer Straße 13 1/2,63755,Alzenau
-2565,NA,NA,NA
-1610,NA,NA,NA
+2565,,,
+1610,,,
 2566,Richard-Wagner-Straße 4,93055,Regensburg
-2567,NA,NA,NA
-861402,NA,NA,NA
-2568,NA,NA,NA
+2567,,,
+861402,,,
+2568,,,
 2569,Bahnhofstraße 4,03238,Finsterwalde
-1756,NA,NA,NA
+1756,,,
 1180,Ernst-Thälmann-Str. 22,09366,Stollberg
-1968,NA,NA,NA
+1968,,,
 2276,Wilhelmstraße 55,57518,Betzdorf
 2570,Hauptstraße 22,82319,Starnberg
 2570,Hinterer Anger 298,86899,Landsberg am Lech
 2570,Eugen-Papst-Str. 4,82110,Germering
 2571,Sankt-Florian-Straße 2,64521,Groß-Gerau
-2277,NA,NA,NA
+2277,,,
 2293,Hauptstraße 344,55743,Idar-Oberstein
 2293,Beinde 50,55543,Bad Kreuznach
 1971,Karl-Götz-Str. 17,97424,Schweinfurt
 2572,Franziskanerstraße 14,81669,München
 2573,Bahnhofstraße 124,78532,Tuttlingen
 2573,Bahnhofstraße 1,78628,Rottweil
-1690,NA,NA,NA
-2574,NA,NA,NA
+1690,,,
+2574,,,
 2575,Hauptstr. 23,54634,Bitburg
 2575,Burgstr. 10,54516,Wittlich
 2278,Linzer Str. 3,53604,Bad Honnef
 1973,Osterstraße 39A 31134 Hildesheim,31134,"Hildesheim,"
 1973,Paulistraße 6,31061,Alfeld
-2279,NA,NA,NA
-1974,NA,NA,NA
+2279,,,
+1974,,,
 1130,Am Stadtgraben 21,72070,Tübingen
-2280,NA,NA,NA
+2280,,,
 2576,Goethestrasse 16,40822,Mettmann
-1975,NA,NA,NA
+1975,,,
 2281,Kurt-Schumacher-Str. 30-32,60313,Frankfurt
-2144,NA,NA,NA
+2144,,,
 1135,Hirsenstraße 13,65329,Hohenstein
 1135,Liebigstraße 12,65307,Bad Schwalbach
 1519,Wahnbachtalstraße 8,53721,Siegburg
 2577,Wilhelmstraße 18,91413,Neustadt a. d. Aisch
 2578,Marktplatz 13,92421,Schwandorf
-2283,NA,NA,NA
+2283,,,
 2579,Gymnasiumstraße 6,76804,Landau
 2580,Allerheiligentor 2-4,60311,Frankfurt am Main
-2284,NA,NA,NA
-2581,NA,NA,NA
+2284,,,
+2581,,,
 2582,Stadtseeallee 20,39576,Stendal
 2582,Ernst Thälmann Straße 12,39638,Gardelegen
 2582,Breite Str. 45,29410,Salzwedel
 2583,Neue Marktstraße 32,31785,Hameln
-2584,NA,NA,NA
-1980,NA,NA,NA
+2584,,,
+1980,,,
 1984,Innere Bamberger Straße 3,96215,Lichtenfels
 2585,Binnengärtenstraße 9,06749,Bitterfeld-Wolfen
 2585,Fritz-Brandt-Straße 14,39261,Zerbst
@@ -857,6 +857,6 @@ mdbID,street,postalcode,city
 1985,Karl-Marx-Platz 4,16225,Eberswalde
 1990,Markt 3,64823,Groß-Umstadt
 1990,Hauptstr. 2,64711,Erbach
-2586,NA,NA,NA
+2586,,,
 2587,Fischerfeldstraße 7-11,60311,Frankfurt am Main
 2588,Doberaner Str. 6,18057,Rostock
