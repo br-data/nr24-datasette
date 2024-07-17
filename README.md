@@ -4,7 +4,11 @@
 
 ### Was ist eine Datenbank?
 
-Eine simple Erklärung: Eine Datenbank sind mehrere Tabellen, die miteinander in Zusammenhang stehen (können).
+Ein paar simple Erklärungen: 
+
+- eine Datenbank sind mehrere Tabellen, die miteinander in Zusammenhang stehen (können).
+- strukturierte Sammlung von Daten
+- der Zweck ist die Organisation, das Speichern und das Abrufen von Daten 
 
 Es gibt viele verschiedene Datenbanksysteme, zu den bekanntesten gehören `MySQL`, `Postgres` oder `sqlite`, mit der wir arbeiten. 
 Der Vorteil von `sqlite`: Die ganze Datenbank ist nur eine einzige Datei. 
@@ -20,7 +24,7 @@ Und - nicht zu vernachlässigen - es gibt [sehr gute Anleitungen](https://datase
 
 Wer's auch benutzt: Bellingcat, hier zu sehen: https://www.bellingcat.com/news/rest-of-world/2022/04/01/food-delivery-leak-unmasks-russian-security-agents/
 
-### Was ist ein Terminal/die Kommandozeile?
+### Was ist ein Terminal/die Kommandozeile (Command Line Interface, CLI)?
 
 Die Eingabeaufforderung, dieses schwarze Fenster mit heller Schrift...  
 
@@ -39,7 +43,7 @@ pipx install datasette
 
 Prüfen, ob es geklappt hat: 
 
-```
+```bash
 datasette --version
 ```
 
@@ -54,42 +58,59 @@ Datasette
 datasette data.db --create
 ```
 
+Simon Willison hat auch ein CLI-Tool geschrieben, um mit `sqlite`-Datenbank zu arbeiten. Es heißt `sqlite-utils`.
 
+Installation
+```bash
 pipx install sqlite-utils
+```
 
 https://datasette.io/plugins/datasette-explain
 
 
-## Daten importieren
-
-Eine Datenbank besteht aus  
+## Daten in die Datenbank importieren
 
 Wir haben da was vorbereitet...
 
 Daten zu Abgeordneten des Bundestags.
 
-Datenbank erstellen: https://datasette.io/tutorials/clean-data
+Anleitung, um eine Datenbank zu erstellen: https://datasette.io/tutorials/clean-data
 
 https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-csv-or-tsv-data
 
-analog zu 
+Wir benutzen `insert` Befehl, um eine CSV-Tabelle als eine Tabelle in eine Datenbank zu schreiben: https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-csv-or-tsv-data
 
+
+```bash
+sqlite-utils insert mdbs.db mdb data/mdbs.csv --csv --detect-types --pk=mdb_id --pk=wahlkreis_id
+sqlite-utils insert mdbs.db rel_mdb_ausschuesse data/rel_mdbs_ausschuesse.csv --csv --detect-types --pk=mdb_id --pk=ausschuss_id
+sqlite-utils insert mdbs.db ausschuesse data/ausschuesse.csv --csv --detect-types --pk=ausschuss_id
+sqlite-utils insert mdbs.db adresses data/mdb_addresses.csv --csv --detect-types
 ```
-sqlite-utils insert mdbs.db mdb \
-  diese_csv.csv --csv -d
+
+Vorschau auf der Kommandozeile:
+
+```bash
+sqlite-utils schema mdbs.db
 ```
 
+Ansehen:
 
-sqlite-utils insert mdbs.db rel_mdb_ausschuesse data/rel_mdbs_ausschuesse.csv --csv --detect-types --pk=mdb_id  
+```bash
+datasette mdbs.db
+```
 
-sqlite-utils insert mdbs.db ausschuesse data/ausschuesse.csv --csv --detect-types --pk=ausschuss_id 
+## Full-text search
 
-sqlite-utils insert mdbs.db adresses data/mdb_addresses.csv --csv --detect-types   
+Lohnt sich so gut wie immer: Alles durchsuchbar machen mit einer Suchleiste oben
 
-Ansehen:  sqlite-utils schema mdbs.db
+https://docs.datasette.io/en/stable/full_text_search.html
 
+In der DB mdbs.db und der Tabelle mdb die Spalten `name wahlkreis_name fraktion mandatsart` durchsuchbar machen:
 
-run: datasette mdbs.db
+```bash
+sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
+```
 
 ## Plugins installieren und verwenden
 
