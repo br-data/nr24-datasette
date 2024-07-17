@@ -114,6 +114,7 @@ sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
 
 ## Plugins installieren und verwenden
 
+Liste aller vorhandenen Plugins: https://datasette.io/plugins
 
 - Karte
 - Plots/Charts
