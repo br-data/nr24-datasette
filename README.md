@@ -4,7 +4,7 @@
 ## todo
 
 - datum
-- map: lat, lon
+
 
 ## Intro
 
@@ -88,7 +88,7 @@ Wir benutzen `insert` Befehl, um eine CSV-Tabelle als eine Tabelle in eine Daten
 
 
 ```bash
-sqlite-utils insert mdbs.db mdb data/mdbs.csv --csv --detect-types --pk=mdb_id --pk=wahlkreis_id
+sqlite-utils insert mdbs.db mdb data/mdbs.csv --csv --detect-types --pk=mdb_id
 sqlite-utils insert mdbs.db rel_mdb_ausschuesse data/rel_mdbs_ausschuesse.csv --csv --detect-types --pk=mdb_id --pk=ausschuss_id
 sqlite-utils insert mdbs.db ausschuesse data/ausschuesse.csv --csv --detect-types --pk=ausschuss_id
 sqlite-utils insert mdbs.db adresses data/mdb_addresses.csv --csv --detect-types
@@ -166,7 +166,7 @@ https://docs.datasette.io/en/stable/metadata.html
 Über eine bestimmte Datei kann man datasette weiter konfiguieren, entweder als `json` oder `yaml` - Geschmackssache. 
 Beispiele: 
 - Beschreibungen der Datenbank, einzelnen Tabellen oder Spalten hinterlegen
-- 
+- Wichtige Abfragen hinterlegen, die dann wie Tabellen anzusteuern sind
 
 Um die datasette mit diesen Konfigurationen zu starten, muss man mit dem `--metadata`-Parameter auf die Datei verweisen. 
 
@@ -174,17 +174,25 @@ Um die datasette mit diesen Konfigurationen zu starten, muss man mit dem `--meta
 datasette mdbs.db --metadata metadata.json
 ```
 
-### Beispiel
-
-So sieht die `metadata.json` aus für eine Recherche zum Jugendschutzfilter JusProg, zusammen mit netzpolitik.org: https://www.tagesschau.de/investigativ/br-recherche/jugendschutzfilter-aufklaerungsseiten-100.html
-
-![Real Life Example](img/metadata_example.png)
-
 ### Aufgabe
 
 Eine der Abfrage als sogenannte "canned query" in der `metadata.json` hinterlegen.
 
+## Abfrage nach Datum
+
+Das Geburtstdatum der MdB's steht so in den Ausgangsdaten: `07.07.1986` - so wird das nicht von der `sqlite` als Datum erkannt. 
+
+Mit der `convert`-Funktion von `sqlite-utils` können wir die Angaben in echte Zeitangaben umwandeln.
+
+```bash
+sqlite-utils convert mdbs.db mdb geburtsdatum 'r.parsedatetime(value, dayfirst=True)'
+```
+Mehr dazu: https://sqlite-utils.datasette.io/en/stable/cli.html#sqlite-utils-convert-recipes
+
+Beispiel: 
+
 ## Links
 
 - [datasette.io](https://datasette.io/)
+- Verschiedenste Tutorials: https://datasette.io/tutorials/
 - SQL-Cheatsheet: https://pbs.twimg.com/media/GSiaz9SXcAAY_y2?format=jpg&name=medium
