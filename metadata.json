@@ -1,15 +1,13 @@
 {
     "title": "Abgeordnete des deutschen Bundestags",
-    "description": "Some description text can go here",
-    "license": "ODbL",
-    "license_url": "https://opendatacommons.org/licenses/odbl/",
-    "source": "Original Data Source",
-    "source_url": "http://example.com/",
+    "description": "Eine Liste aller Abgeordneten des deutschen Bundestag sowie ihre Zugehörigkeit zu Ausschüssen und Adressen der Wahlkreisbüros.",
+    "source": "Deutscher Bundestag",
+    "source_url": "https://www.bundestag.de/abgeordnete",
     "databases": {
         "mdbs": {
             "tables": {
                 "mdb": {
-                    "description_html": "Eine Liste der Abgeordneten... ",
+                    "description_html": "Eine Liste der Abgeordneten  ",
                     "columns": {
                         "mdb_id": "Intern vergebene ID"
                     }

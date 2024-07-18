@@ -118,6 +118,16 @@ sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
 
 Liste aller vorhandenen Plugins: https://datasette.io/plugins
 
+### Bilder darstellen
+
+https://datasette.io/plugins/datasette-render-image-tags
+
+Installieren und danach datasette neu starten
+
+```bash
+datasette install datasette-render-image-tags
+```
+
 ### Karte
 
 https://datasette.io/plugins/datasette-cluster-map
@@ -233,6 +243,7 @@ sqlite-utils convert mdbs.db mdb geburtsdatum 'r.parsedatetime(value, dayfirst=T
 Mehr dazu: 
 - https://datasette.io/tutorials/clean-data
 - https://sqlite-utils.datasette.io/en/stable/cli.html#sqlite-utils-convert-recipes
+
 
 
 ## Links
