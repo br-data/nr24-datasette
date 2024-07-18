@@ -1,5 +1,11 @@
 # nr24-datasette
 
+
+## todo
+
+- datum
+- map: lat, lon
+
 ## Intro
 
 ### Was ist eine Datenbank?
@@ -94,7 +100,9 @@ Vorschau auf der Kommandozeile:
 sqlite-utils schema mdbs.db
 ```
 
-Ansehen:
+## Datasette starten
+
+Kommando: `datasette pfad_zur_datenbank`
 
 ```bash
 datasette mdbs.db
@@ -116,12 +124,28 @@ sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
 
 Liste aller vorhandenen Plugins: https://datasette.io/plugins
 
-- Karte
-- Plots/Charts
+### Karte
 
+https://datasette.io/plugins/datasette-cluster-map
+
+Wenn sich etwa Koordinaten in den Tabellen befinden, werden sie automatisch auf eine Karte gezeichnet, solange wie Standardnamen haben wie `lat`, `long`.
+
+Erst das Paket installieren, dann wieder datasette starten und die Tabelle öffnen mit den Koordinaten:
+
+```bash
+datasette install datasette-cluster-map
+datasette mdbs.db
+```
+
+### Charts
+
+https://datasette.io/plugins/datasette-plot
+
+Nach der Installation gibt es einen "Show Plot"-Button an jeder Tabelle und dort kann man sich was zurecht klicken. 
+
+Aber Vorsicht: Plotten kann man vieles, ob es Sinn ergibt, muss man selbst prüfen. 
 
 ## Abfragen
-
 
 ```sql
 select * from mdbs 
@@ -133,7 +157,34 @@ Interessante Abfrage als View abspeichern
 - SQL query irgendwie in metadata.json reinpacken
 
 
-## Metadata.json/Metadata.yaml: Einstellungen
+## datasette konfigurieren
 
+> Data loves metadata. Any time you run Datasette you can optionally include a JSON file with metadata about your databases and tables. Datasette will then display that information in the web UI.
+
+https://docs.datasette.io/en/stable/metadata.html
+
+Über eine bestimmte Datei kann man datasette weiter konfiguieren, entweder als `json` oder `yaml` - Geschmackssache. 
+Beispiele: 
+- Beschreibungen der Datenbank, einzelnen Tabellen oder Spalten hinterlegen
 - 
 
+Um die datasette mit diesen Konfigurationen zu starten, muss man mit dem `--metadata`-Parameter auf die Datei verweisen. 
+
+```bash
+datasette mdbs.db --metadata metadata.json
+```
+
+### Beispiel
+
+So sieht die `metadata.json` aus für eine Recherche zum Jugendschutzfilter JusProg, zusammen mit netzpolitik.org: https://www.tagesschau.de/investigativ/br-recherche/jugendschutzfilter-aufklaerungsseiten-100.html
+
+![Real Life Example](img/metadata_example.png)
+
+### Aufgabe
+
+Eine der Abfrage als sogenannte "canned query" in der `metadata.json` hinterlegen.
+
+## Links
+
+- [datasette.io](https://datasette.io/)
+- SQL-Cheatsheet: https://pbs.twimg.com/media/GSiaz9SXcAAY_y2?format=jpg&name=medium
