@@ -16,6 +16,13 @@ Wir bieten einen Hands-on-Workshop an, und zeigen, wie ihr Datasette auf dem eig
 
 ## Intro
 
+### Ziele
+
+- alle installieren datasette
+- erstellen aus mehreren csv-Dateien eine Datenbank
+- Datenbank erkunden, filtern, SQL abfragen
+- datasette mit Plugins erweitern
+
 ### Was ist eine Datenbank?
 
 Ein paar simple Erklärungen: 
@@ -65,11 +72,6 @@ Datasette braucht das Plugin [datasette-codespace](https://datasette.io/plugins/
 
 ```bash
 datasette install datasette-codespaces
-```
-
-Datasette 
-```bash
-datasette data.db --create
 ```
 
 Simon Willison hat auch ein CLI-Tool geschrieben, um mit `sqlite`-Datenbank zu arbeiten. Es heißt `sqlite-utils`.
