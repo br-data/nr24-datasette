@@ -187,9 +187,10 @@ Mit der `convert`-Funktion von `sqlite-utils` können wir die Angaben in echte Z
 ```bash
 sqlite-utils convert mdbs.db mdb geburtsdatum 'r.parsedatetime(value, dayfirst=True)'
 ```
-Mehr dazu: https://sqlite-utils.datasette.io/en/stable/cli.html#sqlite-utils-convert-recipes
+Mehr dazu: 
+- https://datasette.io/tutorials/clean-data
+- https://sqlite-utils.datasette.io/en/stable/cli.html#sqlite-utils-convert-recipes
 
-Beispiel: 
 
 ## Links
 
