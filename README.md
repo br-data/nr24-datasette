@@ -168,8 +168,8 @@ Aber Vorsicht: Plotten kann man vieles, ob es Sinn ergibt, muss man selbst prüf
 ## Abfragen
 
 ```sql
-select * from mdbs 
-inner join rel_mdb_ausschuesse on mdbs.mdb_id=rel_mdb_ausschuesse.mdb_id
+select * from mdb 
+inner join rel_mdb_ausschuesse on mdb.mdb_id=rel_mdb_ausschuesse.mdb_id
 inner join ausschuesse on rel_mdb_ausschuesse.ausschuss_id=ausschuesse.ausschuss_id
 ```
 
@@ -267,3 +267,4 @@ Mehr dazu:
 - [datasette.io](https://datasette.io/)
 - Verschiedenste Tutorials: https://datasette.io/tutorials/
 - SQL-Cheatsheet: https://pbs.twimg.com/media/GSiaz9SXcAAY_y2?format=jpg&name=medium
+- Advanced SQL stuff: https://use-the-index-luke.com
