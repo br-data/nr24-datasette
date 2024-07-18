@@ -174,6 +174,55 @@ Um die datasette mit diesen Konfigurationen zu starten, muss man mit dem `--meta
 datasette mdbs.db --metadata metadata.json
 ```
 
+
+### Real-world Beispiel
+
+So sieht die `metadata.json` aus für eine Recherche zum Jugendschutzfilter JusProg, zusammen mit netzpolitik.org: https://www.tagesschau.de/investigativ/br-recherche/jugendschutzfilter-aufklaerungsseiten-100.html
+
+```json
+{
+  
+    "title": "JusProg",
+     "description": "In dieser Datenbank befinden sich die Alterszuordnungen der JusProg-Software von 6,4 Millionen de-Domains.",
+     "databases": {
+         "jusprog_datasette": {
+             "tables": {
+                 "api_responses": {
+                     "description_html": "Die Ergebnisse von JusProg für jede Domain. Verteilungen der einzelnen Spalten und Details auch unter <a href='https://interaktiv.brdata-dev.de/jusprog-analyse/inspect-age-check-data.html'>mehr</a> ",
+                      "columns": {
+                        "url": "Geprüfte Domain",
+                        "age": "Mindestalter für die URL, die JusProg-API zurückgibt (von JusProg)",
+                        "timestamp": "Wann wir Domain geprüft haben"
+                         
+                     }
+                 },
+                 "age_changes": {
+                     "description_html": "Domains, bei denen wir eine Änderung der Alterseinstufung festellen konnten."
+                 },
+                  "google_test": {
+                     "description_html": "Test von Google-Ergebnissen bestimmter Suchanfragen. "
+                 }
+             },
+             "queries": {
+                "blocked_domains": {
+                  
+                    "sql": "select * from api_responses where age >= 18;"
+                }
+            }
+         }
+     },
+ 
+     "plugins": {
+         "datasette-render-html": {
+             "columns": ["url", "domain", "url_clean"]
+         },
+         "datasette-render-timestamps": {
+             "format": "%Y-%m-%d-%H:%M:%S"
+         }
+     }
+ }
+ ```
+
 ### Aufgabe
 
 Eine der Abfrage als sogenannte "canned query" in der `metadata.json` hinterlegen.
