@@ -1,5 +1,17 @@
 # nr24-datasette
 
+https://nr24.sched.com/event/1d4kv/so-schwer-ist-es-nicht-datenbanken-fur-journalistinnen
+
+Je größer die Datenmengen, desto wichtiger ist, dass sie konsistent und gut zu handhaben sind. In der Tech-Welt verwendet man deshalb Datenbanken, um Tabellen zu managen. Durch die Welt der Journalist*innen flattern dagegen noch zu oft lose Excel- und CSV-Dateien.  
+
+Deshalb wollen wir Datasette zeigen – direkt zum Mitmachen und Anfassen. [Datasette](https://datasette.io/) ist ein Schweizer Taschenmesser für die Arbeit mit Daten: Man kann damit Daten verwalten und analysieren, abfragen, visualisieren und mit anderen teilen. Der Vorteil: Die Daten sind in einer Datenbank gespeichert und nicht in einer flüchtigen Excel- oder CSV-Tabelle.
+
+Exporte in verschiedenste Formate sind natürlich trotzdem jederzeit möglich. Außerdem gibt es eine riesige Palette von Plugins, um Daten beispielsweise in Diagrammen, Karten oder sogar auf Dashboards zu visualisieren, effizient zu durchsuchen oder mit für Datenbanken außergewöhnlichen Formaten wie Bildern umzugehen.
+
+So wird Datasette zum vielfältigen Werkzeug – das im Browser läuft, aber auf dem eigenen Rechner. Damit ist es auch für sensible Datensätze geeignet. Genauso kann es auf einem Server installiert werden und damit auch die gemeinsame Arbeit an einem Datensatz ermöglichen.
+
+Wir bieten einen Hands-on-Workshop an, und zeigen, wie ihr Datasette auf dem eigenen Rechner zum Laufen bringt, Daten importiert und anseht, Plugins installiert, Daten visualisiert, Daten abfragt und auswertet und ihm Team an Daten arbeitet. Die Voraussetzungen dafür: ein eigener Rechner, installiertes Python 3 oder ein Github-Account und das Wissen, was die Kommandozeile ist.
+
 ## Intro
 
 ### Was ist eine Datenbank?
