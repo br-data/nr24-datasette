@@ -1,11 +1,5 @@
 # nr24-datasette
 
-
-## todo
-
-- datum
-
-
 ## Intro
 
 ### Was ist eine Datenbank?
