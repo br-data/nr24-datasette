@@ -163,9 +163,12 @@ datasette mdbs.db
 
 https://datasette.io/plugins/datasette-plot
 
+```bash
+datasette install datasette-plot
+
 Nach der Installation gibt es einen "Show Plot"-Button an jeder Tabelle und dort kann man sich was zurecht klicken. 
 
-Aber Vorsicht: Plotten kann man vieles, ob es Sinn ergibt, muss man selbst prüfen. 
+Aber Vorsicht: Plotten kann man Vieles – ob es Sinn ergibt, muss man selbst prüfen. 
 
 ## Abfragen
 
