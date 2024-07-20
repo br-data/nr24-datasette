@@ -90,6 +90,8 @@ Wir haben da was vorbereitet...
 
 Daten zu Abgeordneten des Bundestags.
 
+![Datenbankschema](db_schema/NR24_2024-05-15T13%2008%2029.967Z.png)
+
 Anleitung, um eine Datenbank zu erstellen: https://datasette.io/tutorials/clean-data
 
 https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-csv-or-tsv-data
@@ -149,9 +151,13 @@ datasette mdbs.db
 
 https://datasette.io/plugins/datasette-plot
 
+```bash
+datasette install datasette-plot
+```
+
 Nach der Installation gibt es einen "Show Plot"-Button an jeder Tabelle und dort kann man sich was zurecht klicken. 
 
-Aber Vorsicht: Plotten kann man vieles, ob es Sinn ergibt, muss man selbst prüfen. 
+Aber Vorsicht: Plotten kann man Vieles – ob es Sinn ergibt, muss man selbst prüfen. 
 
 ### Full-text search
 
