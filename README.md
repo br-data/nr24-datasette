@@ -120,6 +120,14 @@ Kommando: `datasette pfad_zur_datenbank`
 datasette mdbs.db
 ```
 
+## Abfragen
+
+```sql
+select * from mdb 
+inner join rel_mdb_ausschuesse on mdb.mdb_id=rel_mdb_ausschuesse.mdb_id
+inner join ausschuesse on rel_mdb_ausschuesse.ausschuss_id=ausschuesse.ausschuss_id
+```
+
 ## Plugins installieren und verwenden
 
 Liste aller vorhandenen Plugins: https://datasette.io/plugins
@@ -170,17 +178,6 @@ In der DB mdbs.db und der Tabelle mdb die Spalten `name wahlkreis_name fraktion 
 ```bash
 sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
 ```
-
-## Abfragen
-
-```sql
-select * from mdb 
-inner join rel_mdb_ausschuesse on mdb.mdb_id=rel_mdb_ausschuesse.mdb_id
-inner join ausschuesse on rel_mdb_ausschuesse.ausschuss_id=ausschuesse.ausschuss_id
-```
-
-Interessante Abfrage als View abspeichern
-- SQL query irgendwie in metadata.json reinpacken
 
 
 ## datasette konfigurieren
