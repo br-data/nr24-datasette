@@ -90,6 +90,8 @@ Wir haben da was vorbereitet...
 
 Daten zu Abgeordneten des Bundestags.
 
+!(Datenbankschema)[https://raw.githubusercontent.com/br-data/nr24-datasette/develop/db_schema/NR24_2024-05-15T13%2008%2029.967Z.png]
+
 Anleitung, um eine Datenbank zu erstellen: https://datasette.io/tutorials/clean-data
 
 https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-csv-or-tsv-data
