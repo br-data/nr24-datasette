@@ -18,7 +18,7 @@ Wir bieten einen Hands-on-Workshop an, und zeigen, wie ihr Datasette auf dem eig
 
 ### Ziele
 
-- alle installieren datasette
+- datasette installieren
 - erstellen aus mehreren csv-Dateien eine Datenbank
 - Datenbank erkunden, filtern, SQL abfragen
 - datasette mit Plugins erweitern
