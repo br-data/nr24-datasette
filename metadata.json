@@ -1,18 +1,53 @@
 {
     "title": "Abgeordnete des deutschen Bundestags",
-    "description": "Eine Liste aller Abgeordneten des deutschen Bundestag sowie ihre Zugehörigkeit zu Ausschüssen und Adressen der Wahlkreisbüros.",
-    "source": "Deutscher Bundestag",
-    "source_url": "https://www.bundestag.de/abgeordnete",
+    "description": "Stammdaten der aktuellen MdBs",
+    "license": "ODbL",
+    "license_url": "https://opendatacommons.org/licenses/odbl/",
+    "source": "bundestag.de",
+    "source_url": "https://bundestag.de",
     "databases": {
         "mdbs": {
             "tables": {
                 "mdb": {
-                    "description_html": "Eine Liste der Abgeordneten  ",
+                    "description_html": "ausgewählte Stammdaten der aktuellen Abgeordneten im deutschen Bundestag",
                     "columns": {
-                        "mdb_id": "Intern vergebene ID"
+                        "mdb_id": "Intern vergebene ID",
+                        "name": "Vollständiger Name im Format Nachname, Vorname inkl. akadem. Titel, außerdem Ergänzung um Stadt in runden Klammern nach dem Nachnamen, falls doppeldeutig",
+                        "wahlkreis_id": "Intern vergebene ID des Wahlkreises",
+                        "wahlkreis_name": "Vollständiger Name des Wahlkreises",
+                        "fraktion": "Fraktionszugehörigkeit",
+                        "url": "Link zur Profilseite auf bundestag.de",
+                        "geburtsdatum": "Geburtsdatum",
+                        "partei": "Parteimitgliedschaft",
+                        "img_url": "URL zum Bild, wie im Profil auf bundestag.de angezeigt"
                     }
-                }
-            }
+                },
+                "rel_mdbs_ausschuesse": {
+                    "description_html": "Zuordnung von MdBs und Ausschüssen",
+                    "columns": {
+                        "mdb_id": "Intern vergebene ID",
+                        "ausschuss_id": "Offizielle Ausschuss-ID",
+                        "funktion": "Funktion des MdBs: o.M. = ordentliches Mitglied; stv.M. = stellvertretendes Mitglied; O. = Obmann/Obfrau; S = Sprecher*in"
+                    }
+                },
+                "ausschuesse": {
+                    "description_html": "Zuordnung von Ausschuss-IDs und Namen",
+                    "columns": {
+                        "ausschuss_id": "Offizielle Ausschuss-ID",
+                        "name": "Vollständiger Name des Ausschusses"
+                    }
+                },
+                "mdb_addresses": {
+                    "description_html": "Liste der Wahlkreisbüros der Abgeordneten",
+                    "columns": {
+                        "mdb_id": "Intern vergebene ID",
+                        "address": "Adresse (zusammenhängend)",
+                        "street": "Straße und Hausnummer, extrahiert aus der Adresse",
+                        "postalcode": "Postleitzahl, extrahiert aus der Adresse",
+                        "city": "Stadt, extrahiert aus der Adresse",
+                        "lat": "Breitengrad des Standorts",
+                        "long": "Längengrad des Standorts"
+                      }
         }
     }
 }
