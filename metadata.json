@@ -48,6 +48,8 @@
                         "lat": "Breitengrad des Standorts",
                         "long": "Längengrad des Standorts"
                       }
-        }
+                }
+            }
+       }
     }
 }
