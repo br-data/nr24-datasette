@@ -118,18 +118,6 @@ Kommando: `datasette pfad_zur_datenbank`
 datasette mdbs.db
 ```
 
-## Full-text search
-
-Lohnt sich so gut wie immer: Alles durchsuchbar machen mit einer Suchleiste oben
-
-https://docs.datasette.io/en/stable/full_text_search.html
-
-In der DB mdbs.db und der Tabelle mdb die Spalten `name wahlkreis_name fraktion mandatsart` durchsuchbar machen:
-
-```bash
-sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
-```
-
 ## Plugins installieren und verwenden
 
 Liste aller vorhandenen Plugins: https://datasette.io/plugins
@@ -164,6 +152,18 @@ https://datasette.io/plugins/datasette-plot
 Nach der Installation gibt es einen "Show Plot"-Button an jeder Tabelle und dort kann man sich was zurecht klicken. 
 
 Aber Vorsicht: Plotten kann man vieles, ob es Sinn ergibt, muss man selbst prüfen. 
+
+### Full-text search
+
+Lohnt sich so gut wie immer: Alles durchsuchbar machen mit einer Suchleiste oben
+
+https://docs.datasette.io/en/stable/full_text_search.html
+
+In der DB mdbs.db und der Tabelle mdb die Spalten `name wahlkreis_name fraktion mandatsart` durchsuchbar machen:
+
+```bash
+sqlite-utils enable-fts mdbs.db mdb name wahlkreis_name fraktion mandatsart
+```
 
 ## Abfragen
 
