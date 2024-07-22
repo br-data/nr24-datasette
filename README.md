@@ -122,10 +122,34 @@ datasette mdbs.db
 
 ## Abfragen
 
+**Beispiel 1:** Wo sind die Wahlkreisbüros aller direkt gewählten CSU-Abgeordneten (und wie viele gibt es)?
+
 ```sql
-select * from mdb 
-inner join rel_mdb_ausschuesse on mdb.mdb_id=rel_mdb_ausschuesse.mdb_id
-inner join ausschuesse on rel_mdb_ausschuesse.ausschuss_id=ausschuesse.ausschuss_id
+select * from mdb
+  left join mdb
+  on mdb.mdb_id = adresses.mdb_id
+  where partei = "CSU" and mdb.mandatsart = "Direktwahl"
+```
+
+zum Zählen:
+
+```sql
+select count(*) from mdb
+  left join mdb
+  on mdb.mdb_id = adresses.mdb_id
+  where partei = "CSU" and mdb.mandatsart = "Direktwahl"
+```
+
+**Beispiel 2:** Wer sind die Obleute im Ausschuss für Arbeit und Soziales?
+
+```sql
+select * from rel_mdb_ausschuesse 
+  left join mdb 
+  on rel_mdb_ausschuesse.mdb_id = mdb.mdb_id
+  left join ausschuesse
+  on rel_mdb_ausschuesse.ausschuss_id = ausschuesse.ausschuss_id
+  where funktion = "O."
+  and rel_mdb_ausschuesse.ausschuss_id = "a11"
 ```
 
 ## Plugins installieren und verwenden
